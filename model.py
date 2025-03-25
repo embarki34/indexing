@@ -246,10 +246,10 @@ def main():
                             # Get the exact feature names the model was trained on
                             feature_names = st.session_state.model.feature_names_in_
 
-                            # Print feature names for debugging
-                            st.write("Training Feature Names:", list(feature_names))
-                            st.write("Extracted SQL Features:", list(features.keys()))
-                            st.write("TF-IDF Feature Names:", list(query_features.columns))
+                            # # Print feature names for debugging
+                            # st.write("Training Feature Names:", list(feature_names))
+                            # st.write("Extracted SQL Features:", list(features.keys()))
+                            # st.write("TF-IDF Feature Names:", list(query_features.columns))
 
                             # Create DataFrame with correct features in correct order
                             full_input_df = pd.DataFrame(0, index=[0], columns=feature_names)
@@ -272,9 +272,9 @@ def main():
                             full_input_df = full_input_df[feature_names]
 
 
-                            # Debug info - comment out in final version
-                            st.write("Input features:", full_input_df.columns.tolist())
-                            st.write("Model features:", feature_names.tolist())
+                            # # Debug info - comment out in final version
+                            # st.write("Input features:", full_input_df.columns.tolist())
+                            # st.write("Model features:", feature_names.tolist())
 
                             prediction = st.session_state.model.predict(full_input_df)
                             index_type = st.session_state.label_encoder.inverse_transform(prediction)[0]
