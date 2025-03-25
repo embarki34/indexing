@@ -209,26 +209,11 @@ def execute_query_with_metrics(conn, query, query_name, index_type, index_statem
         start_cpu = process.cpu_percent(interval=0.1)
         start_memory = process.memory_info().rss / (1024 * 1024)  # Convert to MB
         
-        # Get query length
-        query_length = len(query)
-        
-        # Execute EXPLAIN to get selectivity and row estimates
-        cursor.execute(f"EXPLAIN {query}")
-        explain_output = cursor.fetchall()
-        estimated_rows = 0
-        for line in explain_output:
-            if 'rows=' in line[0]:
-                estimated_rows = int(re.search(r'rows=(\d+)', line[0]).group(1))
-        
         # Execute query and measure time
         start_time = time.time()
         cursor.execute(query)
         results = cursor.fetchall()  # Ensure query execution completes
         end_time = time.time()
-        
-        # Calculate actual selectivity
-        cursor.execute(f"SELECT COUNT(*) FROM ({query}) AS subquery")
-        actual_rows = cursor.fetchone()[0]
         
         # Record ending metrics
         end_cpu = process.cpu_percent(interval=0.1)
@@ -239,17 +224,7 @@ def execute_query_with_metrics(conn, query, query_name, index_type, index_statem
         cpu_change = end_cpu - start_cpu
         memory_change = end_memory - start_memory
         
-        # Extract additional features
-        has_where = 'WHERE' in query.upper()
-        has_join = 'JOIN' in query.upper()
-        has_group_by = 'GROUP BY' in query.upper()
-        has_order_by = 'ORDER BY' in query.upper()
-        has_aggregation = any(func in query.upper() for func in ['COUNT', 'SUM', 'AVG', 'MIN', 'MAX'])
-        
         logger.info(f"[{query_name}] Execution Time: {execution_time:.2f} seconds")
-        logger.info(f"[{query_name}] Query Length: {query_length} characters")
-        logger.info(f"[{query_name}] Estimated Rows: {estimated_rows}")
-        logger.info(f"[{query_name}] Actual Rows: {actual_rows}")
         logger.info(f"[{query_name}] CPU Usage: {start_cpu:.2f}% -> {end_cpu:.2f}% (Change: {cpu_change:.2f}%)")
         logger.info(f"[{query_name}] Memory Usage: {start_memory:.2f} MB -> {end_memory:.2f} MB (Change: {memory_change:.2f} MB)")
         
@@ -277,11 +252,9 @@ def execute_query_with_metrics(conn, query, query_name, index_type, index_statem
         return {
             'query_name': query_name,
             'index_type': index_type,
+            'query': query,
             'index_description': INDEX_DESCRIPTIONS.get(index_type.lower(), 'Unknown index type'),
             'index_statement': index_statement,
-            'query_length': query_length,
-            'estimated_rows': estimated_rows,
-            'actual_rows': actual_rows,
             'execution_time': execution_time,
             'cpu_start': start_cpu,
             'cpu_end': end_cpu,
@@ -290,11 +263,6 @@ def execute_query_with_metrics(conn, query, query_name, index_type, index_statem
             'memory_end': end_memory,
             'memory_change': memory_change,
             'result_count': len(results) if results else 0,
-            'has_where': has_where,
-            'has_join': has_join,
-            'has_group_by': has_group_by,
-            'has_order_by': has_order_by,
-            'has_aggregation': has_aggregation,
             **sql_verbs_count  # Add SQL verbs count to the result
         }
     except psycopg2.Error as e:
@@ -302,11 +270,9 @@ def execute_query_with_metrics(conn, query, query_name, index_type, index_statem
         return {
             'query_name': query_name,
             'index_type': index_type,
+            'query': query,
             'index_description': INDEX_DESCRIPTIONS.get(index_type.lower(), 'Unknown index type'),
             'index_statement': index_statement,
-            'query_length': len(query),
-            'estimated_rows': -1,
-            'actual_rows': -1,
             'execution_time': -1,
             'cpu_start': -1,
             'cpu_end': -1,
@@ -315,11 +281,6 @@ def execute_query_with_metrics(conn, query, query_name, index_type, index_statem
             'memory_end': -1,
             'memory_change': -1,
             'result_count': -1,
-            'has_where': False,
-            'has_join': False,
-            'has_group_by': False,
-            'has_order_by': False,
-            'has_aggregation': False,
             'error': str(e),
             **{verb: 0 for verb in ['select', 'insert', 'update', 'delete', 'create', 'drop', 'alter', 'join', 'where', 'group by', 'order by', 'having', 'limit', 'between', 'in', 'like']}  # Default counts to 0
         }
@@ -428,13 +389,11 @@ def run_simulation():
     
     # Reorder columns for better readability
     columns_order = [
-        'query_name', 'index_type', 'index_description', 
-        'index_statement', 'query_length', 'estimated_rows',
-        'actual_rows', 'execution_time', 
+        'query_name', 'index_type','query', 'index_description', 
+        'index_statement', 'execution_time', 
         'cpu_start', 'cpu_end', 'cpu_change',
         'memory_start', 'memory_end', 'memory_change',
-        'result_count', 'has_where', 'has_join', 
-        'has_group_by', 'has_order_by', 'has_aggregation'
+        'result_count'
     ]
     
     # Add SQL verbs count to columns order
@@ -456,10 +415,7 @@ def run_simulation():
     summary_df = df.groupby(['index_type', 'query_name']).agg({
         'execution_time': 'mean',
         'cpu_change': 'mean',
-        'memory_change': 'mean',
-        'query_length': 'first',
-        'estimated_rows': 'mean',
-        'actual_rows': 'mean'
+        'memory_change': 'mean'
     }).reset_index()
     
     summary_path = 'performance_summary.csv'
@@ -469,8 +425,8 @@ def run_simulation():
     # Identify the best index type per query based on minimum execution time
     try:
         best_indexes = df.loc[df.groupby('query_name')['execution_time'].idxmin()]
-        best_indexes = best_indexes[['query_name', 'index_type', 'execution_time', 'query_length', 'estimated_rows', 'actual_rows']]
-        best_indexes.columns = ['query_name', 'best_index_type', 'best_execution_time', 'query_length', 'estimated_rows', 'actual_rows']
+        best_indexes = best_indexes[['query_name', 'index_type', 'execution_time']]
+        best_indexes.columns = ['query_name', 'best_index_type', 'best_execution_time']
         best_path = 'best_indexes.csv'
         best_indexes.to_csv(best_path, index=False)
         logger.info(f"Best index configurations saved to {best_path}")
