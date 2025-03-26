@@ -95,40 +95,44 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 """
 # print(sql_content)
-index_types = "btree,gist,hash,gin,bitmap,reverse"
+current_index_type = 'hash'
+
+# --- Assume 'current_index_type' is defined within your loop ---
+# e.g., current_index_type = 'hash' 
 
 prompt = f"""
-        Based on the following SQL schema:
+Act as a database performance analyst. Your task is to generate ONE SQL SELECT query based on the provided schema that would specifically benefit from a '{current_index_type}' index if one were created.
 
-        ```sql
-        {sql_content}
-        ```
+**Schema:**
 
-        Generate a concise SQL SELECT query to interrogate the data (e.g., find specific records, aggregate data, etc.).
-        Specify the preferred method of indexing for the query. 
-        Do NOT create tables or indexes. Focus on SELECT queries for data interrogation.
-        This is query number i for index type '{index_types}'. Make each query different.
-        Return the response in the format: "quiri: string; preferindex: string".
-        """
+```sql
+{sql_content} 
+```
 
-while True:
-    for index_type in index_types.split(','):
-        
-        response = requests.post(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAXLjLGb0bUbjfgvFKE-6E66sqMhIfPKqY",
-            headers={'Content-Type': 'application/json'},
-            json={
-                "contents": [{
-                    "parts": [{"text": prompt}]
-                }]
-            }
-        )
-        query_text = response.json().get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
-        with open("query.txt", "r") as f:
-            existing_queries = f.read().splitlines()
-        
-        if query_text and query_text not in existing_queries:
-            with open("query.txt", "a") as f:
-                f.write(query_text + "\n")
+**Instructions:**
+
+1. Generate a SQL SELECT query that would specifically benefit from a '{current_index_type}' index.
+2. Ensure the query is optimized for the '{current_index_type}' index type.
+3. The query should be written in a way that is efficient and performs well on the database.
+4. make the format like this `quiri: <query>, preferindex: <index_type>`
+5. Dont add anything else to the query except the query itself.
+"""
+while True: 
+    response = requests.post(
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDZjDMZb9r_B1GsADxQABpD0leaCdZRxHA",
+        headers={'Content-Type': 'application/json'},
+        json={
+            "contents": [{
+                "parts": [{"text": prompt}]
+            }]
+        }
+    )
+    query_text = response.json().get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+    with open("query.txt", "r") as f:
+        existing_queries = f.read().splitlines()
+    
+    if query_text and query_text not in existing_queries:
+        with open("query.txt", "a") as f:
+            f.write(query_text + "\n")
     
     time.sleep(30)  # Wait for 30 seconds before the next iteration
