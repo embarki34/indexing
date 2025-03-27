@@ -1,0 +1,6383 @@
+```json
+{
+  "quiri": "SELECT order_id, order_date, total_amount FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+quiri: ```sql
+SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'
+```, preferindex: `GIST`
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: gist
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: gist
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100 AND 200;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 20.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: ```sql
+SELECT
+    o.order_id,
+    o.order_date,
+    o.total_amount
+FROM
+    orders o
+WHERE
+    o.shipping_address LIKE '%123 Main St%'
+```, preferindex: gist
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100 AND 200",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%test%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: SELECT * FROM products WHERE description LIKE '%database%' OR name LIKE '%database%', preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%Example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE description LIKE '%advanced%';, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE 'Example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%';",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%advanced techniques%' OR name LIKE '%advanced techniques%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE description LIKE '%advanced%';`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT o.order_id, o.order_date, o.total_amount FROM orders o WHERE o.shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100 AND 200 AND stock_quantity > 50, preferindex: gist
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE 'Example%';`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%Example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: ```sql
+SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'
+```, preferindex: `gist`
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM products WHERE name LIKE 'Example%';, preferindex: GIST
+
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: ```sql
+SELECT
+    o.order_id,
+    o.order_date,
+    o.total_amount
+FROM
+    orders o
+WHERE
+    o.shipping_address LIKE '%123 Main St%'
+```, preferindex: gist
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100 AND 200 AND stock_quantity BETWEEN 10 AND 50;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: GIST
+```
+
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100 AND 200 AND stock_quantity > 50;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%Example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: ```sql
+SELECT
+    o.order_id,
+    o.order_date,
+    o.total_amount
+FROM
+    orders o
+WHERE
+    o.shipping_address LIKE '%123 Main St%'
+```, preferindex: gist
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%Example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: GIST
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%Example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT o.order_id, o.order_date, o.total_amount FROM orders o WHERE o.shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%Example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id IN (1, 5, 10) AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100 AND 200 AND stock_quantity >= 50;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%' , preferindex: gist
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 20.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+quiri: SELECT * FROM products WHERE name LIKE '%%Example%%', preferindex: GIST
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: ```sql
+SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'
+```, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00 AND stock_quantity > 50, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE category_id = 10 AND price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 10 AND price BETWEEN 100.00 AND 200.00",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%advanced techniques%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%Example%%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%abc%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT o.order_id, o.order_date, o.total_amount FROM orders o WHERE o.shipping_address LIKE '%123 Main St%' OR o.shipping_address LIKE '%456 Oak Ave%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%' OR description LIKE '%example%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%advanced data structures%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10 AND 20 AND stock_quantity > 5;",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: SELECT * FROM products WHERE name LIKE 'A%';, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+quiri: ```sql
+SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;
+```, preferindex: `gist`
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%Example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100 AND 200 AND stock_quantity BETWEEN 10 AND 50, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: gist
+```
+
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE 'A%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%Example%%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE 'Example%';`, preferindex: `GIST`
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%advanced techniques%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+quiri: `SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%';`, preferindex: `GIST`
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%database%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00 AND stock_quantity > 10, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%Example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%';",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 100 AND 200;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date, total_amount FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%advanced techniques%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00 AND stock_quantity > 50 , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+quiri: ```sql
+SELECT
+    *
+FROM
+    orders
+WHERE
+    shipping_address LIKE '%123 Main St%'
+```, preferindex: gist
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE 'Example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 10 AND price BETWEEN 100 AND 200;",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%';`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: gist
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: ```sql
+SELECT
+    o.order_id,
+    o.order_date,
+    o.total_amount
+FROM
+    orders o
+WHERE
+    o.shipping_address LIKE '%123 Main St%'
+```, preferindex: gist
+
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%Example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 10 AND price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM products WHERE description LIKE '%introduction to databases%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: `SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100 AND 200",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00`, preferindex: gist
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: GIST
+```
+
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+quiri: ```sql
+SELECT order_id, order_date, total_amount
+FROM orders
+WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%';
+```, preferindex: gist
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%%example%%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: `GIST`
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00 AND stock_quantity > 50, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100 AND 200, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE category_id = 1 AND price BETWEEN 10.00 AND 100.00",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT o.order_id, o.order_date, o.total_amount FROM orders o WHERE o.shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%Example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE '%%example%%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 100.00 AND 200.00, preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM products WHERE name LIKE '%example%';, preferindex: gist
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE description LIKE '%advanced techniques%'",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+quiri: SELECT * FROM products WHERE price BETWEEN 100 AND 200, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00;",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM products WHERE name LIKE 'Example%';, preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%example%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```text
+quiri: SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%' , preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: `GIST`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: GIST
+```
+
+quiri: `SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%'`, preferindex: GIST
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE shipping_address LIKE '%123 Main St%'",
+  "preferindex": "GIST"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "gist"
+}
+```
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: gist
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE name LIKE '%%example%%'",
+  "preferindex": "GIST"
+}
+```
+
+```
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```
+quiri: SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00, preferindex: gist
+```
+
+quiri: `SELECT * FROM products WHERE name LIKE '%example%'`, preferindex: GIST
+
+```text
+quiri: SELECT * FROM users WHERE shipping_address LIKE '%123 Main St%' OR shipping_address LIKE '%456 Oak Ave%', preferindex: GIST
+```
+
+```json
+{
+  "quiri": "SELECT * FROM products WHERE price BETWEEN 10.00 AND 100.00",
+  "preferindex": "gist"
+}
+```
+

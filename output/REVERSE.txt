@@ -1,0 +1,3448 @@
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26';`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 00:00:00' ORDER BY order_date DESC;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2024-01-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date > '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+```
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' AND order_date <= '2023-10-27 23:59:59' ORDER BY order_date DESC, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 00:00:00', preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2024-01-01 00:00:00' AND '2024-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00';`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2024-01-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00';`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' AND order_date <= '2023-12-31' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01';`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01';`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01';`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, user_id, order_date FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01' AND '2023-12-31' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT order_id FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2024-01-01 00:00:00' AND '2024-01-31 23:59:59'",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01';`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date > '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26';`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00';`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26';`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26';`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' AND order_date <= '2023-12-31' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 00:00:00';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' AND order_date <= '2023-12-31' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01';`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01'",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2023-10-27 00:00:00';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' AND order_date <= '2023-12-31' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT order_id FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26';`, preferindex: `REVERSE`
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26';`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date < '2024-01-01';",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00';",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date, total_amount FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date > '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2023-12-31 23:59:59' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-10-26 00:00:00' AND '2023-10-27 23:59:59';`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01' AND '2023-12-31' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date < '2023-10-26 00:00:00';`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 10;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01 00:00:00' AND '2024-01-01 00:00:00' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 1000, preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 1000; , preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;`, preferindex: REVERSE
+
+```text
+quiri: SELECT order_id FROM orders WHERE order_date < '2024-01-01', preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date >= '2023-10-26 00:00:00' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+
+```text
+quiri: SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+```json
+{
+  "quiri": "SELECT * FROM orders WHERE order_date >= '2023-10-26' ORDER BY order_date DESC LIMIT 100;",
+  "preferindex": "REVERSE"
+}
+```
+
+```text
+quiri: SELECT order_id, order_date FROM orders WHERE order_date >= '2023-01-01' ORDER BY order_date DESC LIMIT 100;, preferindex: REVERSE
+```
+
+quiri: `SELECT * FROM orders WHERE order_date < '2024-01-01' ORDER BY order_date DESC LIMIT 100;`, preferindex: `REVERSE`
+

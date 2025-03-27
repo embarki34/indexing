@@ -1,4 +1,4 @@
-from google import genai
+# from google import genai
 import pandas as pd
 import time
 import re
@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 import requests
 
-client = genai.Client(api_key="AIzaSyAXLjLGb0bUbjfgvFKE-6E66sqMhIfPKqY")
+
 sql_content = """
 
 
@@ -119,7 +119,7 @@ Act as a database performance analyst. Your task is to generate ONE SQL SELECT q
 """
 while True: 
     response = requests.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDZjDMZb9r_B1GsADxQABpD0leaCdZRxHA",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCzyWpsKeu_gnpIixtKTA0HuydxWQiy2Bw",
         headers={'Content-Type': 'application/json'},
         json={
             "contents": [{
@@ -128,11 +128,11 @@ while True:
         }
     )
     query_text = response.json().get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
-    with open("query.txt", "r") as f:
+    with open("hash.txt", "r") as f:
         existing_queries = f.read().splitlines()
     
     if query_text and query_text not in existing_queries:
-        with open("query.txt", "a") as f:
+        with open("hash.txt", "a") as f:
             f.write(query_text + "\n")
     
     time.sleep(30)  # Wait for 30 seconds before the next iteration
